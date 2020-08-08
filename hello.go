@@ -1,3 +1,4 @@
 package hello
 
-func hello() string { return "Hello World" }
+// Hello returns Hello World
+func Hello() string { return "Hello World." }
