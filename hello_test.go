@@ -8,3 +8,10 @@ func TestHello(t *testing.T) {
 		t.Errorf("Hello() = %q, want %q", got, want)
 	}
 }
+
+func TestGreet(t *testing.T) {
+	want := "Howzit?"
+	if got := Greet(); got != want {
+		t.Errorf("Greet() = %q, want %q", got, want)
+	}
+}
